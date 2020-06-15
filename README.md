@@ -12,7 +12,7 @@ To retrieve secret:
 val secretValue = ClientSecrets.getSecret(SecretType.SAMPLE_SECRET)
 ```
 
-To save secret:
+To add a new secret:
 1. Add a constant to com.nomtek.secrets.ClientSecrets
 2. Add new enum value in secret-type.cpp
 3. Add entry to a secrets map in client-secrets.cpp
@@ -22,4 +22,6 @@ secrets = {
           {SecretType::NEW_SECRET, "New Secret Value"}
 };
 ```
+
+Checkout "sample" module to see sample usage.
 
