@@ -19,7 +19,7 @@ To save secret:
 ```
 secrets = {
           ...
-          {SecretType::NEW_SECRET,        "New Secret Value"}
+          {SecretType::NEW_SECRET, "New Secret Value"}
 };
 ```
 
